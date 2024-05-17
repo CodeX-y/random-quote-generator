@@ -23,16 +23,18 @@ This is a fun and interactive web application built using Ruby with the Sinatra 
 
 
 2. **Install dependencies:**
+   - Type `bundle install` in terminal.
 
 
 3. **Set up environment variables:**
 
 - Obtain an API key from [API Ninjas](https://www.api-ninjas.com/) and set it as `API_NINJA_KEY` in your environment.
 
-4. **Run the application:**
+5. **Run the application:**
+   - Type `app.rb` in terminal.
 
 
-5. **Open your web browser** and navigate to `http://localhost:4567` to view the app.
+6. **Open your web browser** and navigate to `http://localhost:4567` to view the app.
 
 ## License
 
