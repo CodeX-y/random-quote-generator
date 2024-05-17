@@ -1,18 +1,39 @@
-# sinatra-template
+# Quote Generator Web App
 
-Use this repository to create new Sinatra apps. 
+This is a fun and interactive web application built using Ruby with the Sinatra framework. It generates quotes based on different categories chosen by the user.
 
-Optionally, to use `ActiveRecord` for database operations, add to the `app.rb`:
+## Features
 
-```ruby
-require "sinatra/activerecord"
-```
+- Choose from various categories such as Happiness, Success, Inspirational, Food, Friendship, Health, or select Random for a surprise!
+- Each category displays a list of quotes along with their authors.
+- Enjoy a visually appealing and lively design with vibrant colors and playful animations.
 
-And in the `config/environment.rb` file add this code block:
+## Technologies Used
 
-```ruby
-configure do
-  # setup a database connection
-  set(:database, { adapter: "sqlite3", database: "db/development.sqlite3" })
-end
-```
+- Ruby
+- Sinatra
+- HTML
+- CSS
+- JSON
+- HTTP Gem
+
+## Setup Instructions
+
+1. **Clone the repository** to your local machine:
+
+
+2. **Install dependencies:**
+
+
+3. **Set up environment variables:**
+
+- Obtain an API key from [API Ninjas](https://www.api-ninjas.com/) and set it as `API_NINJA_KEY` in your environment.
+
+4. **Run the application:**
+
+
+5. **Open your web browser** and navigate to `http://localhost:4567` to view the app.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
