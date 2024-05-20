@@ -19,3 +19,6 @@ post("/quote") do
   erb(:quote)
 end
 
+post("/") do
+  "Hello World!"
+end
