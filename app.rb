@@ -36,7 +36,3 @@ post("/quote") do
     return "An internal error occurred. Please try again later."
   end
 end
-
-post("/") do
-  "Hello World!"
-end
